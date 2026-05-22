@@ -17,11 +17,10 @@ A strategic twist on classic Tic Tac Toe: **Tic Tac Bomb**.
 
 Core implementation lives in:
 
-- `/home/runner/work/Tic-Tac-Toe/Tic-Tac-Toe/tic_tac_bomb.py`
+- `tic_tac_bomb.py`
 
 Run tests:
 
 ```bash
-cd /home/runner/work/Tic-Tac-Toe/Tic-Tac-Toe
 python -m unittest discover -s tests -v
 ```
