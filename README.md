@@ -39,7 +39,7 @@ Same as classic Tic Tac Toe — get **3 of your marks in a row** (horizontally, 
 ---
 ## Git
 ```Terminal
-git clone https://github.com/greenchesse/Tic-Tac-Toe
+git clone https://github.com/greenchesse/Tic-Tac-Bomb
 ```
 
 ---
