@@ -1,6 +1,7 @@
 # Tic Tac Bomb
- 
+
 > A strategic twist on the classic Tic Tac Toe — where every move counts and the pressure never stops.
+> Terminal Base Game.
  
 ---
  
@@ -32,5 +33,30 @@ Players earn **Move Points** by placing marks on the board. These points can be 
 ---
  
 ## Win Condition
- 
+
 Same as classic Tic Tac Toe — get **3 of your marks in a row** (horizontally, vertically, or diagonally) before your opponent does. Just watch out for bombs. 💣
+
+---
+## Git
+```Terminal
+git clone https://github.com/greenchesse/Tic-Tac-Toe
+```
+
+---
+## How to Run
+> this only run on linux
+### Terminal 1:
+```Terminal
+~$ cd Tic-Tac-Bomb
+~$ gcc Tic-Tac-Bomb-Server.c -o Server
+~$ gcc Tic-Tac-Bomb-Client.c -o Client
+~$ ./Server [Port Number]
+```
+### Terminal 2:
+```Terminal
+~$ cd Tic-Tac-Bomb
+~$ ./Client [Port Number] [IP address]
+```
+
+## **Enjoy**
+
